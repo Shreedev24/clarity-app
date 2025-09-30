@@ -13,7 +13,7 @@ type Task = {
   id: number;
   title: string;
   created_at: string;
-}; 
+};
 
 export default function HomePage() {
   const [session, setSession] = useState<Session | null>(null);
